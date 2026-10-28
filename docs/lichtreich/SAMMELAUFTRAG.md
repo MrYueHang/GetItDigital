@@ -1,11 +1,13 @@
-# Einsammeln, vergleichen und weiterbauen
+# [Logo] LiMe – Layout into Model engine
+
+Verbindliches Branding: [LiMe](../../lime/00_start/BRANDING.md). Projektstart: [README](../../README.md).
 
 Stand: 28.10.2026. Ergänzung zum [Restart-Handoff](RESTART_HANDOFF.md).
 Dieser Auftrag startet keinen lokalen Agenten automatisch. Er ist dessen vollständige Arbeitsanweisung.
 
 ## A. Prompt für den lokalen Agenten
 
-Du bist der lokale Integrationsagent für LICHTREICH Elektrotechnik. Sammle vorhandene Projektstände, bevor du entwickelst.
+Du bist der lokale Integrationsagent für LiMe. Sammle vorhandene Projektstände, bevor du entwickelst.
 
 Lies zuerst:
 https://github.com/MrYueHang/GetItDigital/blob/docs/lichtreich-restart-handoff/docs/lichtreich/RESTART_HANDOFF.md
@@ -17,7 +19,7 @@ https://github.com/MrYueHang/GetItDigital/blob/docs/lichtreich-restart-handoff/d
 5. Prüfe Projekt-Skripte vor Installation/Ausführung. Ermittle einen tatsächlichen Startbefehl aus dem Projekt, statt npm-Befehle zu erraten. Laufende lokale Projekte nicht überschreiben. Erst isoliert starten, dann die drei Kernabläufe prüfen: Fachinhalt öffnen, Schaltungsbeispiel anzeigen, Lernfortschritt speichern.
 6. Wähle nach Nutzerpräferenz v0 als vorläufige App-Basis. Belege diese Auswahl durch Code-/Funktionsprüfung. Übernimm aus Studio A bessere Interaktion und aus Studio B bessere Lernführung, sofern tatsächlich vorhanden. Manus/Hercules bleiben offen, solange kein Export erreichbar ist.
 7. Verwende GetItDigital als getrennte, auf Commit fixierte Inhaltsquelle. Der Fork enthält Lehrmaterial; er ist kein fertiges App-Framework. Erhalte Attribution und Originalstruktur.
-8. Nutze PDF.js für Plan-/Skriptanzeige; CircuitJS für passende Lernsimulationen; QElectroTech als externes Werkzeug mit Originaldateien und Vorschauen. Keine neuen Ersatz-Renderer oder Simulatoren bauen. React Flow nur bei Bedarf für Systemübersichten; es ist kein fertiges Elektro-CAD.
+8. Nutze PDF.js für Plan-/Skriptanzeige; CircuitJS für passende Lernsimulationen; QElectroTech als externe Anwendung mit Originaldateien und Vorschauen. Keine neuen Ersatz-Renderer oder Simulatoren bauen. React Flow nur bei Bedarf für Systemübersichten; es ist kein fertiges Elektro-CAD.
 9. Lege die Ergebnisse als INVENTAR.json, VERGLEICH.md, FEEDBACK.md und NEXT_ACTIONS.md im privaten Arbeitsordner ab. Öffentlich dürfen nur bereinigte Projektinformationen und freigegebener Code in PRs gelangen.
 10. Arbeite wiederholbar: vorhandene IDs aktualisieren, unveränderte Hashes überspringen, Herkunft und Zeitstempel erhalten. Jeder Funktionsimport bekommt genau einen Auftrag und einen Branch.
 11. Wenn ein Export fehlt, liste exakt den fehlenden Projektlink oder Export auf. Arbeite an den vorhandenen Kandidaten weiter.
@@ -27,7 +29,7 @@ https://github.com/MrYueHang/GetItDigital/blob/docs/lichtreich-restart-handoff/d
 
 Diesen Block in den jeweiligen bestehenden v0-/Studio-/Manus-/Hercules-Projektchat geben. Ein neuer Chat benötigt zusätzlich den Projektcode oder Zugriff auf das konkrete Projekt.
 
-> Erstelle eine belegbare Übergabe des hier vorhandenen LICHTREICH-Elektrotechnik-Prototyps. Entwickle zunächst nichts Neues. Unterscheide sichtbare UI, implementierte Funktion, Mock und ungeprüfte Behauptung.
+> Erstelle eine belegbare Übergabe des hier vorhandenen LiMe-Prototyps. Entwickle zunächst nichts Neues. Unterscheide sichtbare UI, implementierte Funktion, Mock und ungeprüfte Behauptung.
 >
 > Liefere:
 > 1. Projektname, Plattform, Projekt-/Preview-URL.
@@ -49,7 +51,7 @@ Diesen Block in den jeweiligen bestehenden v0-/Studio-/Manus-/Hercules-Projektch
 
 ## C. Prompt für einen neuen Sammelchat
 
-> Konsolidiere die beigefügten PROTOTYP_HANDOFF.md-Dateien und Code-Exporte für LICHTREICH Elektrotechnik. Verwende den verlinkten Restart-Handoff als Zielvorgabe. Erstelle eine Vergleichsmatrix, dedupliziere identische Exporte, ordne Aussagen ihren Quellen zu und halte fehlende Eingänge offen. v0 ist die Nutzerpräferenz für die App-Basis; die beiden Studio-Varianten liefern möglicherweise Interaktion und Lernführung. Werte Präferenzen nicht als bestandene Funktionstests.
+> Konsolidiere die beigefügten PROTOTYP_HANDOFF.md-Dateien und Code-Exporte für LiMe. Verwende den verlinkten Restart-Handoff als Zielvorgabe. Erstelle eine Vergleichsmatrix, dedupliziere identische Exporte, ordne Aussagen ihren Quellen zu und halte fehlende Eingänge offen. v0 ist die Nutzerpräferenz für die App-Basis; die beiden Studio-Varianten liefern möglicherweise Interaktion und Lernführung. Werte Präferenzen nicht als bestandene Funktionstests.
 >
 > Liefere ein kanonisches Inventar, eine begründete Übernahmeliste pro Komponente und kleine umsetzbare GitHub-Aufträge. Wähle kein neues Framework, bevor der vorhandene Code geprüft ist. Führe keine fünf vollständigen Apps zusammen. Erhalte die beste vorhandene App und integriere gezielt Verbesserungen. Veröffentliche keine privaten Exporte.
 
@@ -106,3 +108,6 @@ GitHub führt Code, bereinigte Dokumentation und Entscheidungen. Ein eindeutig b
 - 04_FREIGABE: ausdrücklich zur Weitergabe bestimmte Ergebnisse
 
 Diesen Ordner erst nach eindeutiger Zuordnung teilen. Keine Freigabe der gesamten persönlichen Drive-Ablage aus dem Wort „alles“ ableiten. Empfänger und Berechtigung gehören in die private Freigabeverwaltung, nicht ins öffentliche Repository.
+
+
+lime.lichtreich.info/handoff/0.1 · 2026-10-28
