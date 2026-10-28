@@ -1,3 +1,18 @@
+# [Logo] LiMe – Layout into Model engine
+
+Fachinhalte und gemeinsame Übergabe für LiMe. Zieladresse: **lime.lichtreich.info** (noch kein bestätigtes Deployment).
+
+- [Branding und Umgebungsvorgaben](lime/00_start/BRANDING.md)
+- [Auftrag für lokalen Agenten und Abfrage-Prompts](docs/lichtreich/SAMMELAUFTRAG.md)
+- [Restart-Handoff und Open-Source-Basis](docs/lichtreich/RESTART_HANDOFF.md)
+- [Gemeinsamer Einstieg](lime/00_start/START.md)
+- [Aufgaben](lime/04_aufgaben/README.md) — Issues sind im Fork derzeit deaktiviert.
+- [Gemeinsame Drive-Ablage](https://drive.google.com/drive/folders/1q98Y_yHFksa8NmMwlMNxwNN2KEagaIFN)
+
+Dieser Fork enthält die GetItDigital-Lehrinhalte. Die LiMe-App-Prototypen sind noch einzusammeln. Quellautoren und CC-BY-4.0-Lizenz bleiben erhalten.
+
+## Originalprojekt und Herkunft
+
 ## GETitDigital
 
 Mit dem Vorhaben "GET it digital" soll ein vollumfängliches, didaktisch aufbereitetes, digitales Lehr-/Lernangebot für die Grundlagen der ElektroTechnik  (GET) in der Form von OER entstehen. Ein Verbund von 6 Hochschulen mit der Fachkompetenz aus teilweise jahrzehntelanger Lehrerfahrung in diesem Grundlagenfach hat sich mit der Förderung durch das Land Nordrhein-Westfalen im Projekt GET it Digital zusammengefunden, um dieses Ziel zu verfolgen.
@@ -133,3 +148,6 @@ Modulverantwortlich: Bergische Universität Wuppertal
 Voraussetzungen: Module 1, 2, 3, 4, 7
 
 Modulverantwortlich: Fachhochschule Südwestfalen
+
+
+lime.lichtreich.info/handoff/0.1 · 2026-10-28
