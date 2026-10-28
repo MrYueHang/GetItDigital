@@ -1,4 +1,6 @@
-# LICHTREICH Elektrotechnik — Restart und gemeinsamer Handoff
+# [Logo] LiMe – Layout into Model engine
+
+Verbindliches Branding: [LiMe](../../lime/00_start/BRANDING.md). Projektstart: [README](../../README.md).
 
 Stand: 28.10.2026. Status: Arbeitsvorgabe und Bestandsaufnahme, keine fertig integrierte App.
 
@@ -88,7 +90,7 @@ Fertige Desktop-Anwendung für Stromlaufpläne. Dokumentiert sind unter anderem 
 
 Geprüftes README: MIT-lizenzierte Bibliothek für knotenbasierte React-/Svelte-Oberflächen. Nur einsetzen, wenn der vorhandene Prototyp einen entsprechenden Editor benötigt. Passend für Anlagenübersichten und didaktische Knotenansichten. Elektrische Symbolik, Anschlusssemantik und Prüfregeln sind dadurch noch nicht vorhanden.
 
-**Priorität:** GET-Inhalte + PDF.js zuerst; CircuitJS als fertiges Lernwerkzeug; QET-Dateien als Praxisbeispiele. React Flow erst bei belegtem Bedarf. Nicht alle Projekte forken oder installieren.
+**Priorität:** GET-Inhalte + PDF.js zuerst; CircuitJS als fertige Lernanwendung; QET-Dateien als Praxisbeispiele. React Flow erst bei belegtem Bedarf. Nicht alle Projekte forken oder installieren.
 
 ## 5. Zielablauf der ersten brauchbaren Version
 
@@ -156,7 +158,7 @@ ELT-008: Vorhandene Builddateien erhalten und gezielt anpassen. Dokumentationsä
 
 ## 9. Copy-paste-Auftrag für v0 / Studio / Codex / Manus
 
-> Arbeite am vorhandenen LICHTREICH-Elektrotechnik-Prototyp weiter. Lies zuerst diesen Handoff und prüfe den tatsächlichen Projektcode. Nutze die vorhandene v0-Oberfläche als bevorzugte Basis, sobald ihr Export identifiziert ist. Erhalte funktionierende Praxisabläufe und Design. Binde die Fachinhalte aus MrYueHang/GetItDigital an; verwende echte Quellen und stabile IDs. Nutze PDF.js für PDFs, CircuitJS für geeignete Lernsimulationen und QElectroTech-Dateien für praktische Stromlaufplanbeispiele. Baue diese Funktionen nicht neu. Übernimm aus den AI-Studio-Prototypen nur belegte bessere Interaktionen und Lernabläufe. Halte Änderungen im kanonischen App-Repo als Branch/PR fest. Liefere zuerst einen durchgängigen Ablauf mit Modul 1, Quellenanzeige, echter Aufgabe und gespeichertem Fortschritt. Markiere fehlende Exporte als offen; erfinde keine Funktionen oder Integrationen. Liefere Commit, Startbefehl, Prüfresultate und nächste Aufgabe. Elektrische Entwürfe benötigen fachliche Prüfung.
+> Arbeite am vorhandenen LiMe-Prototyp weiter. Lies zuerst diesen Handoff und prüfe den tatsächlichen Projektcode. Nutze die vorhandene v0-Oberfläche als bevorzugte Basis, sobald ihr Export identifiziert ist. Erhalte funktionierende Praxisabläufe und Design. Binde die Fachinhalte aus MrYueHang/GetItDigital an; verwende echte Quellen und stabile IDs. Nutze PDF.js für PDFs, CircuitJS für geeignete Lernsimulationen und QElectroTech-Dateien für praktische Stromlaufplanbeispiele. Baue diese Funktionen nicht neu. Übernimm aus den AI-Studio-Prototypen nur belegte bessere Interaktionen und Lernabläufe. Halte Änderungen im kanonischen App-Repo als Branch/PR fest. Liefere zuerst einen durchgängigen Ablauf mit Modul 1, Quellenanzeige, echter Aufgabe und gespeichertem Fortschritt. Markiere fehlende Exporte als offen; erfinde keine Funktionen oder Integrationen. Liefere Commit, Startbefehl, Prüfresultate und nächste Aufgabe. Elektrische Entwürfe benötigen fachliche Prüfung.
 
 ## 10. Lokal den Handoff holen
 
@@ -184,3 +186,6 @@ Nur Clone/Aktualisierung, kein Installer und kein App-Start. Vorhandene lokale �
 ## 11. Grenzen dieser Übergabe
 
 Der Handoff ist im GitHub-Fork hinterlegt. Prototypen wurden nicht zusammengeführt, keine App installiert oder veröffentlicht. Ihre Links/Exporte sind der verbleibende konkrete Eingang für die Implementierung. Die Fachinhalte können unabhängig davon bereits als Grundlage dienen.
+
+
+lime.lichtreich.info/handoff/0.1 · 2026-10-28
