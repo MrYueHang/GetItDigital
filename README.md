@@ -5,7 +5,8 @@ Fachinhalte und gemeinsame Übergabe für LiMe. Zieladresse: **lime.lichtreich.i
 - [Branding und Umgebungsvorgaben](lime/00_start/BRANDING.md)
 - [Auftrag für lokalen Agenten und Abfrage-Prompts](docs/lichtreich/SAMMELAUFTRAG.md)
 - [Restart-Handoff und Open-Source-Basis](docs/lichtreich/RESTART_HANDOFF.md)
-- [Aufgaben](https://github.com/MrYueHang/GetItDigital/issues)
+- [Gemeinsamer Einstieg](lime/00_start/START.md)
+- [Aufgaben](lime/04_aufgaben/README.md) — Issues sind im Fork derzeit deaktiviert.
 - [Gemeinsame Drive-Ablage](https://drive.google.com/drive/folders/1q98Y_yHFksa8NmMwlMNxwNN2KEagaIFN)
 
 Dieser Fork enthält die GetItDigital-Lehrinhalte. Die LiMe-App-Prototypen sind noch einzusammeln. Quellautoren und CC-BY-4.0-Lizenz bleiben erhalten.
